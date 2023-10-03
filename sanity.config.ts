@@ -1,14 +1,15 @@
+import {visionTool} from '@sanity/vision'
 import {defineConfig} from 'sanity'
 import {deskTool} from 'sanity/desk'
-import {visionTool} from '@sanity/vision'
+import {dataset, projectId} from './environment'
 import {schemaTypes} from './schemas'
 
 export default defineConfig({
   name: 'default',
   title: 'pipoca-agil-sanity',
 
-  projectId: 'ejoo37fg',
-  dataset: 'production',
+  projectId: projectId || '',
+  dataset: dataset || '',
 
   plugins: [deskTool(), visionTool()],
 
