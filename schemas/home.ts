@@ -1,7 +1,7 @@
 export default {
   name: 'home',
   type: 'document',
-  title: 'Home',
+  title: 'Início',
   description: 'Conteúdos da página Home',
   fields: [
     {
