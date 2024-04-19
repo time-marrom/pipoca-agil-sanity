@@ -23,6 +23,12 @@ export default {
       description: 'Imagem do criador',
     },
     {
+      name: 'creatorDescription',
+      type: 'text',
+      title: 'Descrição',
+      description: 'Descrição para imagem do criador',
+    },
+    {
       name: 'creatorSocialNetworks',
       type: 'array',
       title: 'Redes sociais',
